@@ -9,7 +9,7 @@ from PyQt5.QtCore import Qt, QRect, QPoint, pyqtSignal
 if __name__ == "__main__":
     # 1. 初始化PyQt5应用（全局唯一）
     app = QApplication(sys.argv)
-
+    print("start")
     # 2. 创建并显示顶级测试窗口
     main_window = MainWindow()
     main_window.show()
